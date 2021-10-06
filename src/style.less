@@ -1,0 +1,77 @@
+@import './less/variables.less';
+@import './less/mixins.less';
+@import './less/grid.less';
+@import './less/scrollbar.less';
+@import './less/typography.less';
+@import './components/UI/icons.less';
+
+@import './components/events/events.less';
+@import './components/facts/facts.less';
+@import './components/eventType/eventType.less';
+@import './components/singleEvent/singleEvent.less';
+@import './components/footer/footer.less';
+
+body {
+    background: #f9f8f8;
+}
+
+main {
+    margin-top: 24px;
+}
+
+.container-fluid {
+    max-width: 1450px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 24px;
+}
+
+.link  {
+  padding: 8px 16px;
+  background: #fafafa;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid #f0f0f0;
+  white-space: nowrap;
+  width: 100%;
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-bottom: 16px;
+  a{
+    color: #333;
+    text-decoration: underline;
+    width: 100%;
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+} 
+
+// Set the container width, and override it for fixed navbars in media queries
+.container {
+    .container-fixed();
+    margin: 0 auto;
+    @media (min-width: @screen-sm) {
+        width: @container-sm;
+    }
+    @media (min-width: @screen-md) {
+        width: @container-md;
+    }
+    @media (min-width: @screen-lg-min) {
+        width: @container-lg;
+    }
+}
+
+.no-gutters {
+    padding: 0;
+}
+
+.row {
+    .make-row();
+}
+
+.upper-case{
+    text-transform: uppercase;
+}
+

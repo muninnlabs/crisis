@@ -1,0 +1,151 @@
+{
+    "nid": [
+        {
+            "value": 157
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b51996ab-a212-4534-af9d-48ecaef049f0"
+        }
+    ],
+    "vid": [
+        {
+            "value": 187
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "events",
+            "target_type": "node_type",
+            "target_uuid": "6a10d057-d7f7-483a-aa81-2d2c452002e4"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2021-09-14T13:47:56+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_id": 1,
+            "target_type": "user",
+            "target_uuid": "df76a272-27d0-4cd8-ab48-c4bf82ae9e3e",
+            "url": "/crisis-portal/user/1"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_id": 5,
+            "target_type": "user",
+            "target_uuid": "5e1231a1-8844-4c56-956e-8540809abec1",
+            "url": "/crisis-portal/user/5"
+        }
+    ],
+    "title": [
+        {
+            "value": "New crisis Event"
+        }
+    ],
+    "created": [
+        {
+            "value": "2021-08-03T12:15:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2021-09-14T13:47:56+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en"
+        }
+    ],
+    "field_tag": [
+        {
+            "target_id": 3,
+            "target_type": "taxonomy_term",
+            "target_uuid": "118fd9fb-72cb-4abd-9dce-632953ba1260",
+            "url": "/crisis-portal/notifications"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus eget ex ut luctus. Pellentesque scelerisque mattis tincidunt. Mauris nulla orci, vestibulum eu rhoncus a, mattis lobortis eros. Aliquam sollicitudin pretium eleifend. Aenean viverra, est eu lacinia bibendum, nulla ex cursus lacus, vitae elementum sem erat nec augue. Nullam accumsan, lorem non cursus tempus, magna nisl eleifend diam, ac aliquet elit purus dictum risus. Duis orci justo, commodo a consequat in, elementum at libero. Ut dui nunc, consectetur sit amet ipsum at, accumsan mollis orci. Nunc porta, enim varius ultricies dapibus, erat erat facilisis tortor, vel sollicitudin ligula purus eget ligula. Cras sit amet turpis quis erat blandit pharetra nec non nisi. Vivamus ut venenatis neque. Praesent diam velit, auctor nec leo eget, porttitor facilisis nunc. Donec tempus sapien eget hendrerit lobortis.</p>\r\n\r\n<p>Quisque vel consequat sem. In euismod augue a leo venenatis, ac elementum sem consectetur. Pellentesque vel aliquam tellus. Integer commodo tempor neque. Fusce pulvinar mauris sapien, eget tempor nibh ultrices id. Nulla vel facilisis enim. Vivamus nisi nunc, pharetra ut tempus nec, ultricies vel leo.</p>\r\n\r\n<p>Aliquam auctor mauris et euismod sollicitudin. Praesent non nulla vitae libero sollicitudin euismod. Vestibulum commodo in lectus varius gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin laoreet lacus eget dolor pellentesque, dictum dapibus eros varius. Etiam lacus quam, tincidunt ut ex sit amet, sodales volutpat dolor. Etiam magna est, venenatis ut nibh in, aliquet dapibus erat. Aliquam auctor mi sit amet nibh venenatis tincidunt. Curabitur maximus nibh et quam fermentum volutpat. Morbi mollis, dui eu euismod faucibus, nunc odio cursus ipsum, eu tincidunt lorem nisi vel neque. Curabitur sagittis hendrerit arcu, vel mattis ex gravida quis. Suspendisse sed scelerisque est. Sed accumsan est a dolor vulputate, eu tempus felis dignissim.</p>\r\n\r\n<p>Pellentesque cursus risus sed tempor iaculis. Vivamus condimentum et leo a finibus. Aenean ullamcorper scelerisque tortor, luctus efficitur metus pulvinar dapibus. Fusce in volutpat mi. Nulla tincidunt quam at urna elementum, non fringilla ante commodo. Etiam et tempor sem. Sed ut arcu eget eros ornare dapibus sollicitudin nec enim. In semper aliquam risus, id finibus nisi feugiat et. Vivamus sed iaculis sapien. Etiam ac neque ipsum. Morbi vehicula, nisi non elementum imperdiet, urna lectus blandit urna, eget accumsan diam diam vitae erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut mattis vel tortor id ultricies. Morbi ante turpis, porttitor a ante id, egestas facilisis eros. Donec vehicula mollis consequat. Sed ligula dui, congue vitae rutrum id, egestas eu turpis.</p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus eget ex ut luctus. Pellentesque scelerisque mattis tincidunt. Mauris nulla orci, vestibulum eu rhoncus a, mattis lobortis eros. Aliquam sollicitudin pretium eleifend. Aenean viverra, est eu lacinia bibendum, nulla ex cursus lacus, vitae elementum sem erat nec augue. Nullam accumsan, lorem non cursus tempus, magna nisl eleifend diam, ac aliquet elit purus dictum risus. Duis orci justo, commodo a consequat in, elementum at libero. Ut dui nunc, consectetur sit amet ipsum at, accumsan mollis orci. Nunc porta, enim varius ultricies dapibus, erat erat facilisis tortor, vel sollicitudin ligula purus eget ligula. Cras sit amet turpis quis erat blandit pharetra nec non nisi. Vivamus ut venenatis neque. Praesent diam velit, auctor nec leo eget, porttitor facilisis nunc. Donec tempus sapien eget hendrerit lobortis.</p>\n\n<p>Quisque vel consequat sem. In euismod augue a leo venenatis, ac elementum sem consectetur. Pellentesque vel aliquam tellus. Integer commodo tempor neque. Fusce pulvinar mauris sapien, eget tempor nibh ultrices id. Nulla vel facilisis enim. Vivamus nisi nunc, pharetra ut tempus nec, ultricies vel leo.</p>\n\n<p>Aliquam auctor mauris et euismod sollicitudin. Praesent non nulla vitae libero sollicitudin euismod. Vestibulum commodo in lectus varius gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin laoreet lacus eget dolor pellentesque, dictum dapibus eros varius. Etiam lacus quam, tincidunt ut ex sit amet, sodales volutpat dolor. Etiam magna est, venenatis ut nibh in, aliquet dapibus erat. Aliquam auctor mi sit amet nibh venenatis tincidunt. Curabitur maximus nibh et quam fermentum volutpat. Morbi mollis, dui eu euismod faucibus, nunc odio cursus ipsum, eu tincidunt lorem nisi vel neque. Curabitur sagittis hendrerit arcu, vel mattis ex gravida quis. Suspendisse sed scelerisque est. Sed accumsan est a dolor vulputate, eu tempus felis dignissim.</p>\n\n<p>Pellentesque cursus risus sed tempor iaculis. Vivamus condimentum et leo a finibus. Aenean ullamcorper scelerisque tortor, luctus efficitur metus pulvinar dapibus. Fusce in volutpat mi. Nulla tincidunt quam at urna elementum, non fringilla ante commodo. Etiam et tempor sem. Sed ut arcu eget eros ornare dapibus sollicitudin nec enim. In semper aliquam risus, id finibus nisi feugiat et. Vivamus sed iaculis sapien. Etiam ac neque ipsum. Morbi vehicula, nisi non elementum imperdiet, urna lectus blandit urna, eget accumsan diam diam vitae erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut mattis vel tortor id ultricies. Morbi ante turpis, porttitor a ante id, egestas facilisis eros. Donec vehicula mollis consequat. Sed ligula dui, congue vitae rutrum id, egestas eu turpis.</p>",
+            "summary": "Quisque vel consequat sem. In euismod augue a leo venenatis, ac elementum sem consectetur. Pellentesque vel aliquam tellus. Integer commodo tempor neque. Fusce pulvinar mauris sapien, eget tempor nibh ultrices id. Nulla vel facilisis enim. Vivamus nisi nunc, pharetra ut tempus nec, ultricies vel leo."
+        }
+    ],
+    "field_event_date": [
+        {
+            "value": "2021-03-09T14:14:56+01:00"
+        }
+    ],
+    "field_file": [
+        {
+            "target_id": 267,
+            "display": true,
+            "description": "",
+            "target_type": "file",
+            "target_uuid": "edcaed53-e6f4-4fae-b350-3c6d70e4a6a2",
+            "url": "http://localhost/crisis-portal/sites/default/files/2021-08/dummy.pdf"
+        }
+    ],
+    "field_image": [
+        {
+            "target_id": 268,
+            "alt": "Mario",
+            "title": "",
+            "width": 702,
+            "height": 347,
+            "target_type": "file",
+            "target_uuid": "e9e41164-fc27-4586-a38d-ccad53b47e2b",
+            "url": "http://localhost/crisis-portal/sites/default/files/2021-08/mario.jpg"
+        }
+    ],
+    "field_link": [
+        {
+            "uri": "http://www.google.com",
+            "title": "google",
+            "options": []
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+@icon-size: 45px;
+
+.event-type {
+    background: #fff;
+    height: fit-content;
+    width: 100%;
+    float: left;    
+    padding-top: 12px;
+    .event-icons-wrapper {
+        max-width: 722px;
+        .type-of-event {
+            background: #fafafa;
+            width: 157px;
+            height: 100px;
+            float: left;
+            margin: 0 16px 16px 0;
+            text-align: center;
+            padding: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            p {
+                line-height: 14px;
+            }
+            .event-type-icon {
+                height: @icon-size;
+                width: @icon-size;
+            }
+        }
+    }
+    .event-type-description-wrapper {
+        border-left: 1px solid #f5f5f5;
+        .event-type-description {
+            width: 100%;
+            height: 420px;
+            overflow-y: scroll;
+        }
+    }
+
+}
