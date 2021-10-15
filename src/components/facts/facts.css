@@ -1,0 +1,32 @@
+.facts {
+  height: 605px;
+  padding-top: 15px;
+  margin-bottom: 30px;
+}
+.facts .free-text {
+  background-color: #fff;
+  padding: 12px;
+  height: 207px;
+}
+.facts .free-text p {
+  line-height: 17px;
+}
+.facts .map-wrapper {
+  height: 322px;
+  background: #fff;
+  margin-top: 24px;
+  position: relative;
+}
+.facts .button-wrapper {
+  text-align: right;
+  margin-bottom: 12px;
+}
+.facts .button-wrapper .ant-btn {
+  color: #40a9ff;
+  border-color: #40a9ff;
+  background: transparent;
+  width: 80px;
+  height: 25px;
+  padding: 0;
+}
+/*# sourceMappingURL=facts.css.map */
