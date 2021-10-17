@@ -9,7 +9,6 @@ const initialState = {
     items: [],
     item: {}, 
     error: '',
-    newPost: {}
 }
 
 const reducer = (state= initialState, action) => {

@@ -3,7 +3,7 @@ import { FETCH_SINGLE_EVENT_SUCCESS, FETCH_SINGLE_EVENT_REQUEST, FETCH_SINGLE_EV
 // import axios from 'axios';
 // import singleEvent from '../../mockedData/singleEvent.json';
 import events from '../../mockedData/events.json';
-import { filter } from 'lodash';
+// import { filter } from 'lodash';
 
 export const fetchSingleEvent = (id) => (dispatch) => {
     dispatch(fetchSingleEventRequest());

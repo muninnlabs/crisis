@@ -3,8 +3,10 @@
   height: fit-content;
   width: 100%;
   float: left;
-  padding-top: 12px;
   margin-bottom: 24px;
+  padding-right: 6px;
+  padding-left: 12px;
+  padding-top: 12px;
 }
 .single-node img {
   margin: 0 24px 24px 0;
@@ -12,4 +14,3 @@
 .single-node .link a {
   display: flex;
 }
-/*# sourceMappingURL=singleEvent.css.map */

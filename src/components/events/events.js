@@ -16,8 +16,6 @@ function Events() {
     const dispatch = useDispatch();
     const [groupedEvents, setGroupedEvents] = useState(null);
 
-    console.log(eventsData)
-
     useEffect(() => {
         dispatch(fetchEvents());
         // eslint-disable-next-line react-hooks/exhaustive-deps

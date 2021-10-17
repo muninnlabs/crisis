@@ -3,8 +3,7 @@ import './spiner.css';
 
 export default function Spiner() {
     return (
-        <div className='spin-wrapper'>
-            <div className="spin"></div>
-        </div>
+        <div className="lds-ring"><div /><div /><div /><div /></div>
+
     )
 }
