@@ -26,19 +26,20 @@ function Events() {
             setGroupedEvents(groupByDateEvents(eventsData.items));
         }
     }, [eventsData]);
-    
+
     const groupByDateEvents = (eventsArray) => {
+        console.log(' ---- ', eventsArray);
         return Object.entries(
             eventsArray.reduce(function (acc, obj) {
-                const key = moment(obj.field_event_date).format('DD-MMM-YYYY');
+                const key = moment(obj.date).format('DD-MMM-YYYY');
                 if (!acc[key]) {
                     acc[key] = [];
                 }
                 acc[key].push(obj);
                 return acc;
             }, {})
-            );
-        };
+        );
+    };
     console.log('state', groupedEvents);
 
     return eventsData.loading ? (
@@ -55,26 +56,23 @@ function Events() {
             {groupedEvents &&
                 groupedEvents.map((date) => (
                     <div>
-                        
-                         <h5 className='upper-case accordion-subtitle'>
-                            {date[0]}
-                        </h5>
+                        <h5 className='upper-case accordion-subtitle'>{date[0]}</h5>
                         <Collapse accordion>
-                        {date[1].length > 0 &&
-                            date[1].map((event) => (
+                            {date[1].length > 0 &&
+                                date[1].map((event) => (
                                     <Panel
                                         header={moment(event.field_event_date).format('HH:mm') + ' - ' + event.title}
                                         key={event?.nid}
-                                        className={event.field_tag.includes('alert') ? 'alert' : ''}
+                                        // className={event.field_tag.includes('alert') ? 'alert' : ''}
                                     >
                                         <p>
-                                            <span>{event.body_1}</span>
+                                            <span>{event.summary}</span>
                                         </p>
                                         <p>
                                             <a href={'event/' + event.nid}>see more</a>
                                         </p>
                                     </Panel>
-                            ))}
+                                ))}
                         </Collapse>
                     </div>
                 ))}
